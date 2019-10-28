@@ -6,14 +6,18 @@
 
 .hero-paragraph {
     margin-bottom: 32px;
+    font-size: 28px;
 }
 
 .hero-media {
     position: relative;
+    padding: 24px;
     height: 200px;
     margin-top: 40px;
     background: color(bg, 1);
     border-radius: 4px 4px 0 0;
+    font-size: 20px;
+    text-align: left;
 
     &::before {
         content: '';
@@ -42,5 +46,6 @@
     .hero-media {
         margin-top: 64px;
         height: 400px;
+        padding: 64px;
     }
 }
